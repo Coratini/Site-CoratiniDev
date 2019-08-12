@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background: pink;
+}
+
+.wrap{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.wrap h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.wrap h2{
+    text-align: left;
+}
+
+.line{
+    height: 25px;
+    min-width: 800px;
+    margin: 0 auto 10px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 0 0 10px;
+    position: relative;
+}
+
+.line:before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 25px;
+    top: 0;
+    z-index: -2;
+    background: #ccc;
+}
+
+.line:after{
+    content: '';
+    background: #333;
+    height: 25px;
+    transition: 0.8s;
+    display: block;
+    animation: animate 1 4s;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.line1:after{
+    max-width: 80%;
+}
+
+.line2:after{
+    max-width: 40%;
+}
+
+.line3:after{
+    max-width: 60%;
+}
+
+.line4:after{
+    max-width: 95%;
+}
+
+@keyframes animate{
+    0% {
+        width: 0%;
+    }
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #myBar {
+    width: 50%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+    animation: animate 1 3s;
+    padding: 0 0 0 10px;
+  }

@@ -1,0 +1,115 @@
+#CSS#
+SELETOR
+p.conteudo
+tag paragrafo com a classe conteudo
+
+*{
+    tudo que por aqui dentro vai servir para o site de uma
+    forma padrao e igual.
+}
+
+:hover -> é sempre quando vc passa o mouse por cima.
+
+a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+todos os elemmentos que ja foram visitados NO SITE ficar como vc 
+quiser
+a:visited{
+    color: blue;
+}
+
+ele se comunica com os filhos de uma lista por exemplo, aqui no caso estou escolhendo apenas o segundo.
+
+ul li:nth-child(2){
+    color: blue;
+}
+
+ul
+    li
+    li (blue)
+    li 
+ul
+
+line-height: 25px;
+-> Define o tamanho da linha do texto. De um texto para o
+outro na hora da quebra de linha na caixa.
+
+text-shadow: 1px 1px #3f3;
+-> sombra no texto. valores: horizontal, vertical blur cor 
+é possivel utilizar valores negativas no horizontal e
+vertical.
+
+white-space
+-> define se o texto quebra ou não. valores: nowrap,normal
+
+word-space
+-> define o espaçamento entre palavras. pode ser em
+px ou em.
+
+letter-spacing
+-> define o tracking. pode ser em px ou em.
+
+ul
+    li
+    li
+ul
+
+
+text-indent
+-> indenta o texto. valores em px ou em. como se fosse uma margim. 
+
+list-style-type
+-> define o estilo do marcador da lista. valores: circle,
+square, disc etc.
+
+list-style-position
+-> define a posição do marcador. valores: inside e outside.
+
+list-style-image
+-> substitui o marcador por uma imagem. valor: url da
+imagem.
+
+list-style: none
+-> remove os marcadores.
+
+
+float
+-> faz com que um elemento de bloco flutue ao lado de outro. valores: left, right, none
+
+clear
+-> impede que elemmentos flutuem ao seu lado. valores: both, left, right, none.
+
+overflow
+-> especifica o que acontece quando o conteudo for maior que a caixa dele. valores: visible,
+hidden,auto, scroll.
+dica: usar overflow: auto na caixa que envolve elementos flutuantes.
+
+position
+-> define o posicionamento do elemento. valores: static, absolute, relative, fixed.
+
+top, left, bottom e right
+-> posicionam elementos com position: absolute, relative ou fixed.
+
+z-index
+-> define qual elemento vem por cima ou por baixo. o maior vem por cima.
+
+#BACKGROUD
+
+backgroud-attatchment
+-> define se a imagem é fixa. valores: fixed, scroll
+
+backgroud-position
+-> posiciona a imagem. valores: center center, left top, right bottom
+
+backgroud-size
+-> define o tamanho da imagem. valores: cover, px, %
+
+box-shadow 
+-> adiciona uma sombra ao box. valores: horizontal, verticar e blur cor é possivel colocar inset para criar uma sombra interna.
+
+visibility
+-> define se o elemento é visivel ou não. valores: hidden, visible
+
