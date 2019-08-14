@@ -90,6 +90,10 @@ h1{
     padding: 10px 0;
 }
 
+.header_menu ul li a.menu_ativo{
+    color: #002985;
+}
+
 .header_menu ul li a:hover{
     color: #1a48f2;
     border-bottom: #1a48f2 solid 2px;
@@ -322,12 +326,12 @@ h1{
 
 .footer_redes ul li {
     display: inline-block;
+    margin: 20px 10px 0 0;
 }
 
 .footer_redes ul li a{
     display: block;
     padding: 5px;
-    margin: 20px 5px 0;
 }
 
 .footer_redes .insta a:hover{
@@ -349,11 +353,61 @@ h1{
 }
 
 
+/* Sobre mim */
+
+.sobre_mim{
+    width: 100%;
+    margin-top: 189px;
+    background: url(../img/sobre.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+}
+
+.sobre{
+    text-align: center;
+    color: #fff;
+}
+
+.sobre h2{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sobre p{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.foto1{
+    padding-top: 5px;
+}
+
+.about_me {
+    width: 100%;
+    background-image: linear-gradient(to top, #ccc, rgb(110, 126, 171));
+}
+
+.foto{
+    margin: 20px 10px;
+}
+
+.texto{
+    margin: 30px 10px;
+}
+
+.texto p{
+    padding: 5px 0;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+}
+
 /* Qualidade */
 
 .qualidade{
-    margin-top: 189px;
     padding: 60px 0;
+    height: 560px;
 }
 
 .qualidade:after{
