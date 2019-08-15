@@ -358,7 +358,7 @@ h1{
 .sobre_mim{
     width: 100%;
     margin-top: 189px;
-    background: url(../img/sobre.jpg) no-repeat center;
+    background: url(../img/teste7b.jpg) no-repeat center;
     background-size: cover;
     height: 200px;
 }
@@ -455,3 +455,126 @@ h1{
     font-style: italic;
 }
 
+
+/* Contato */
+
+.top_bar_contato{
+    width: 100%;
+    margin-top: 189px;
+    background: url(../img/teste6.jpg) no-repeat center; 
+    background-size: cover;
+    height: 200px;
+}
+
+.contato{
+    text-align: center;
+    color: #fff;
+}
+
+.contato h2{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contato p{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.duvidas{
+    height: 560px;
+    padding: 40px 0;
+}
+
+.form{
+    padding-right: 60px;
+}
+
+.form label{
+    display: block;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    border: #002985 4px solid;
+    background: none;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form textarea{
+    display: block;
+    width: 100%;
+    height: 120px;
+    border: #002985 4px solid;
+    background: none;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form button{
+    display: block;
+    background: none;
+    margin-bottom: 20px;
+}
+
+.duvidas_dados span{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.duvidas_dados h3{
+    margin-bottom: 30px;
+    border-bottom: 4px #002985 solid;
+    width: fit-content;
+}
+
+.span_email a{
+    font-weight: bold;
+    color: #000;
+}
+
+.duvidas_dados ul li{
+    margin: 10px 0;
+}
+
+/* Portfolio */
+
+
+.top_bar_portfolio{
+    width: 100%;
+    margin-top: 189px;
+    background: url(../img/teste8.jpg) no-repeat center; 
+    background-size: cover;
+    height: 200px;
+}
+
+.portfolio{
+    text-align: center;
+    color: #fff;
+}
+
+.portfolio h2{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.portfolio p{
+    font-size: 16px;
+    font-style: italic;
+}
