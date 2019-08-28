@@ -113,3 +113,6 @@ box-shadow
 visibility
 -> define se o elemento é visivel ou não. valores: hidden, visible
 
+Media only{
+    Sempre dividir o limite que voce definiu pelas colunas que voce tem, com o valor diminuir 20 que são dos lados e depois somar com o valor da divisão.
+}
