@@ -40,6 +40,10 @@ a {
     letter-spacing: 1.5px;
 }
 
+img{
+    max-width: 100%;
+}
+
 h1{
     color: blue;
     font-weight: bold;
